@@ -1,0 +1,38 @@
+*{
+    font-family: Times, "Times New Roman", Georgia, serif;
+}
+
+a:link {
+    color:antiquewhite;
+}
+
+a:visited {
+    color: rgb(74, 15, 141);
+  }
+
+a:hover {
+    color:rgb(17, 110, 79);
+}
+
+h1 {
+    background-color: rgb(110, 52, 25);
+    color: antiquewhite;
+    font-size: 70px;
+    text-align: center;  
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(37, 80, 50);
+    color:antiquewhite;
+    text-align: center;
+}
+
+.recipe {
+    background-color: rgb(175, 223, 255);
+    color:antiquewhite;
+    text
+    font-size: 18px;
+}
+
