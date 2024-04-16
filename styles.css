@@ -1,35 +1,60 @@
+/* Universal Selectors */
 *{
-    font-family: Times, "Times New Roman", Georgia, serif;
+    font-family: Times, "Times New Roman", Georgia, serif
 }
 
-a:link {
-    color:antiquewhite;
-}
-
-a:visited {
-    color: rgb(74, 15, 141);
-  }
-
-a:hover {
-    color:rgb(17, 110, 79);
-}
-
+/* Type Selectors */
 h1 {
-    background-color: rgb(110, 52, 25);
+    background-color: #966332;
     color: antiquewhite;
     font-size: 70px;
     text-align: center;  
+    box-sizing: border-box;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 25px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
-    background-color: rgb(37, 80, 50);
+    background-color: #464454;
     color:antiquewhite;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Class Selectors */
+.recipe {
+    background-color: #bcc4cc;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 200px;
+    padding:5px;
+    margin:auto;
+    margin-bottom:10px;
+    border: solid #464454;
     text-align: center;
 }
 
-.recipe {
-    background-color: rgb(175, 223, 255);
-    font-size: 24px;
+/* ID Selectors */
+/* None Added Yet */
+
+/* Combinatorial Selectors (these have some combo of type, class, and ID selectors and will likely have the most troubleshooting) */
+a:link {
+    color:#464454;
+}
+
+a:visited {
+    color: #000000;
+  }
+
+a:hover {
+    color: #8f7e5e;
 }
